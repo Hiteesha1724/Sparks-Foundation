@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>NEXUS BANK</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-usd"></span>NEXUS BANK</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li><a href="customers.php"><span class="glyphicon glyphicon-user"></span> Customers</a></li>
+                        <li><a href="transactions.php"><span class="glyphicon glyphicon-transfer"></span> Transactions</a></li>
+                        <li><a href="aboutme.html"> About Me</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+        </div>
+        <div id="customer">
+            <div class="container">
+                <center>
+                    <div id="customer_inner">
+                        <div>
+                            <h1> Create a User</h1>
+          <form  method="post" action="create.php">
+            <div class="form">
+              <input placeholder="NAME" type="text" name="name" required>
+            </div>
+              <div class="form">
+              <input placeholder="EMAIL" type="email" name="email" required>
+            </div>
+              <div class="form">
+              <input placeholder="BALANCE" type="number" name="balance" required>
+            </div>
+            <br>
+            <div>
+                <input class="btn btn-danger btn-lg active" type="submit" placeholder="submit" name="submit" value="Submit" ></input>
+            </div>
+          </form>
+        </div>
+                    </div>
+                </center>
+            
+            </div>
+        </div>
+          <footer class="footer">
+            <center>
+                <div class="container">
+                    ©2021. Made By Hiteesha Gellanki.
+                </div>
+            </center>
+        </footer>
+    </body>
+</html>
